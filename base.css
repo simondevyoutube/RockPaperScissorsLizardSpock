@@ -1,0 +1,75 @@
+#score {
+  border: 6px solid white;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px black;
+  margin: 1em;
+}
+
+#description {
+  font-size: 5em;
+  color: white;
+  height: 150px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.header {
+  font-size: 3em;
+  color: white;
+  background: #404040;
+  text-align: center;
+  height: 2.5em;
+  text-shadow: 4px 4px 4px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+}
+
+.selection > div {
+  margin: 1em;
+}
+
+img {
+  margin: 0.5em;
+  height: 196px;
+}
+
+.base {
+  border-radius: 50%;
+  padding: 0.25em;
+}
+
+.unselected {
+  border: 8px solid white;
+}
+
+.selected {
+  border: 8px solid green;
+}
+
+.aiSelected {
+  border: 8px solid red;
+}
+
+body {
+  background: #202020;
+  margin: 0;
+}
